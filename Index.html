@@ -7,21 +7,29 @@
         <title>Exam</title>
     </head>
     <body>
+        <h1>TicTacToe</h1>
+        <h3>Select how many games!</h3>
+        <table id="scoreTable" style="display:none">
+            <tr>
+                <td id="x">X - 0</td>
+                <td id="gamesNum">/1\</td>
+                <td id="o">O - 0</td>
+            </tr>
+        </table>
+        <input type="button" value="Reset" id="reset" style="display: none;"></input>
         <nav class="buttons">
-            <button type="button" id="1">1</button>
-            <button type="button" id="3">3</button>
-            <button type="button" id="5">5</button>
+            <button>1</button>
+            <button>3</button>
+            <button>5</button>
+            <button>11</button>
         </nav>
-        <h2>Select how many games!</h2>
         <main style="display:none">
             <div id="1"></div><div id="2"></div><div id="3"></div>
             <div id="4"></div><div id="5"></div><div id="6"></div>
             <div id="7"></div><div id="8"></div><div id="9"></div>
         </main>
-        <h1 style="display:none"></h1>
-        <span id="mainSpan" style="display:none" >
-        <span>X - 0</span><span>O - 0</span>
-    </span>
+        <h2 style="display:none"></h2>
+        
     </body>
     <script src="JS/js.js"></script>
     <script src="https://kit.fontawesome.com/d3a4a8966f.js" crossorigin="anonymous"></script>
